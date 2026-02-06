@@ -1,1 +1,40 @@
 /*  your css code here. If applicable */
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+body{
+  background:#e6e4e2;
+}
+
+/* Container */
+.blog-container{
+  display:flex;
+  gap:40px;
+  padding:40px;
+  justify-content:center;
+  align-items:stretch;   /* equal height columns */
+}
+
+/* Column */
+.column{
+  background:white;
+  padding:30px;
+  width:220px;
+  text-align:center;
+  box-shadow:0 0 5px rgba(0,0,0,0.3);
+  display:flex;
+  flex-direction:column;
+}
+
+/* Title */
+.column h2{
+  margin-bottom:25px;
+}
+
+/* Articles */
+.column p{
+  margin:10px 0;
+}
